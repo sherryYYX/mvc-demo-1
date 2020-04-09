@@ -1,0 +1,16 @@
+#page1{
+
+}
+#page1 .outPut{
+    border: 1px solid red;
+}
+#page1  #buttons{
+    position: relative;
+}
+#page1  #buttons > button{
+    padding:2px 5px;
+   margin-top: 10px;
+   margin-left: 4px;
+    background: #00FFC1;
+    color: #FF6600;
+}

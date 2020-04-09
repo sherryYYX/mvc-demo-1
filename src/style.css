@@ -1,0 +1,10 @@
+body> #page{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+body> #page> section{
+    width:50vw;
+    height:50vh;
+    outline:1px solid grey;
+}

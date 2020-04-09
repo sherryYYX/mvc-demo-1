@@ -1,0 +1,27 @@
+#page4{
+
+}
+@keyframes change {
+    0%{
+        background: red;
+    }
+    30%{
+        background: #FF9300;
+    }
+    60%{
+        background: #F9FF00;
+    }
+    100%{
+        background: #00FF55;
+    }
+
+}
+#page4 .circle{
+    border: 1px solid red;
+    width:20vw;
+    height:20vh;
+    border-radius: 50%; 
+}
+#page4 .circle.active{
+    animation: change 2s infinite linear alternate;
+}

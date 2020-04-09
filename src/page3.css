@@ -1,0 +1,14 @@
+#page3{
+
+}
+#page3 .square{
+    background: #00ACFF;
+    margin-top: 3vw;
+    margin-left: 3vh;
+    width: 5vw;
+    height:5vh;
+    transition: transform 1s linear;
+}
+#page3 .square.active{
+    transform: translateX(15vw);
+}

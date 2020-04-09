@@ -1,0 +1,100 @@
+body> #page{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+body> #page> section{
+    width:50vw;
+    height:50vh;
+    outline:1px solid grey;
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+*::before,*::after{
+    box-sizing: border-box;
+}
+ul,ol{
+    list-style: none;
+}
+#page1{
+
+}
+#page1 .outPut{
+    border: 1px solid red;
+}
+#page1  #buttons{
+    position: relative;
+}
+#page1  #buttons > button{
+    padding:2px 5px;
+   margin-top: 10px;
+   margin-left: 4px;
+    background: #00FFC1;
+    color: #FF6600;
+}
+#page2 .app2{
+
+}
+#page2 .tab-bar{
+    display: flex;
+}
+#page2 .tab-bar>li{
+    border:1px solid gainsboro;
+    width:50%;
+}
+#page2 .tab-bar>li.selected{
+    background: cadetblue;
+    color: white;
+}
+#page2 .tab-content>li{
+    display: none;
+}
+#page2 .tab-content>li.active{
+    display: block;
+}
+#page3{
+
+}
+#page3 .square{
+    background: #00ACFF;
+    margin-top: 3vw;
+    margin-left: 3vh;
+    width: 5vw;
+    height:5vh;
+    transition: transform 1s linear;
+}
+#page3 .square.active{
+    transform: translateX(15vw);
+}
+#page4{
+
+}
+@keyframes change {
+    0%{
+        background: red;
+    }
+    30%{
+        background: #FF9300;
+    }
+    60%{
+        background: #F9FF00;
+    }
+    100%{
+        background: #00FF55;
+    }
+
+}
+#page4 .circle{
+    border: 1px solid red;
+    width:20vw;
+    height:20vh;
+    border-radius: 50%; 
+}
+#page4 .circle.active{
+    animation: change 2s infinite linear alternate;
+}
+
+/*# sourceMappingURL=/main.1f19ae8e.css.map */

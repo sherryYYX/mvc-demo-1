@@ -1,0 +1,6 @@
+import './style.css'
+import './reset.css'
+import './page1.js'
+import './page2.js'
+import './page3.js'
+import './page4.js'
